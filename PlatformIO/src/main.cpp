@@ -40,7 +40,7 @@ Arduino_DataBus *bus = new Arduino_ESP32SPI(TFT_DC, TFT_CS, TFT_SCLK, TFT_MOSI);
   Arduino_GFX *gfx = new Arduino_ST7796(bus, TFT_RST);
 
 #elif defined(DISPLAY_ILI9341)
-  Arduino_GFX *gfx = new Arduino_ILI9341(bus, TFT_RST, tftRotation);  
+  Arduino_GFX *gfx = new Arduino_ILI9341(bus, TFT_RST, TFT_ROTATION);  
 
 #elif defined(DISPLAY_ST7789)
   Arduino_GFX *gfx = new Arduino_ST7789(bus, TFT_RST, 3, true);
