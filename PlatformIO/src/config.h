@@ -9,6 +9,7 @@
 // === TFT DISPLAY TYPE ===
 // Uncomment ONE display type:
 #define DISPLAY_ST7796
+//#define DISPLAY_ILI9341
 //#define DISPLAY_ST7789
 //#define DISPLAY_ST7789_172_3 //горизонтально установить TFT_ROTATION 3
 //#define DISPLAY_ST7789_172_0 //вертикальный установить TFT_ROTATION 0 
