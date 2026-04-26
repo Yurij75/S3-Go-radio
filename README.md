@@ -85,6 +85,10 @@ https://code.visualstudio.com/
 
 Фото:
 <img width="1153" height="1189" alt="{C3CD3AC5-BD9A-4275-9E63-35BA82A6F0E3}" src="https://github.com/user-attachments/assets/8ffa0bab-7f1b-4be4-b400-cd6304aa6a2d" />
+<img width="627" height="1101" alt="{F225D972-4EC7-4F88-A2D3-EFE7B76D5578}" src="https://github.com/user-attachments/assets/53be2397-8241-4bd5-8c46-6206100c695a" />
+<img width="1491" height="1156" alt="{F8B87B4A-5C7E-44E4-BA03-D94BD95C29F2}" src="https://github.com/user-attachments/assets/b27b46d6-9e97-460a-ac58-8e4f6db5e4c6" />
+
+
 
 
 
