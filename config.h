@@ -72,7 +72,7 @@
 
 // === IR REMOTE ===
 // Set the IR receiver GPIO here. Leave 255 to disable IR control.
-#define IR_REMOTE_PIN 8
+#define IR_REMOTE_PIN 255
 
 // Common 21-key NEC/Panasonic remote defaults.
 // Change these values if your remote sends other command codes.
