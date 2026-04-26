@@ -86,6 +86,8 @@ https://code.visualstudio.com/
 Фото с веб:
 
 <img src="https://github.com/user-attachments/assets/8ffa0bab-7f1b-4be4-b400-cd6304aa6a2d" width="25%"/>
+<img src="https://github.com/user-attachments/assets/fc578763-000b-4dd5-8b43-49bb51e2617f" width="25%"/>
+
 <img src="https://github.com/user-attachments/assets/53be2397-8241-4bd5-8c46-6206100c695a" width="25%"/>
 <img src="https://github.com/user-attachments/assets/b27b46d6-9e97-460a-ac58-8e4f6db5e4c6" width="25%"/>
 
