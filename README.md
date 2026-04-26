@@ -11,7 +11,7 @@
 - смена фона, настройка положения и цвета текста с веба без перезагрузки
 - настройка размера, цвета, логики движения и положения стрелок вуметра с веба
 - загрузка и удаление файлов с веб
-- настройка пинов платы, выбор типа дисплея  в файле S3_Go_radio\config.h
+- настройка пинов платы, выбор типа дисплея  в файле config.h
 -  управление 5 кнопок, энкодер ( 1 или 2), пульт 5 кнопок (коды вручную прописать в config.h)
 -  Управление адресной led лентой типа 2812 (пин 48)
 -  возможность сохранять свои темы и делиться с другими
@@ -70,16 +70,18 @@ https://code.visualstudio.com/
 
 
 Библиотеки:
-  https://github.com/Bodmer/TJpg_Decoder.git
-  https://github.com/schreibfaul1/ESP32-audioI2S @ ^3.4.5
-  https://github.com/moononournation/Arduino_GFX.git
-  bblanchon/ArduinoJson @ ^7.4.2
-  https://github.com/Arduino-IRremote/Arduino-IRremote.git
-  adafruit/Adafruit NeoPixel @ ^1.12.0
-- бонус русские шрифты https://github.com/immortalserg/AdafruitGFXRusFonts
-Как поменять шрифт: Копируем новый шрифт в папку "src". Прописываем в начале файла main.cpp имя нового шрифта например #include "Bahamas8.h", потом ищем в коде старый шрифт через ctrl+f, и меняем его имя. ВНИМАНИЕ!!! Внутри файла шрифта может быть прописано по другому, "const uint8_t Bahamas8pt8bBitmaps[] PROGMEM = {", значит нам надо взять "Bahamas8pt8b", получится так:
-gfx->setFont(&Bahamas8pt8b);
 
+  https://github.com/Bodmer/TJpg_Decoder.git
+  
+  https://github.com/schreibfaul1/ESP32-audioI2S @ ^3.4.5
+  
+  https://github.com/moononournation/Arduino_GFX.git
+  
+  bblanchon/ArduinoJson @ ^7.4.2
+  
+  https://github.com/Arduino-IRremote/Arduino-IRremote.git
+  
+  adafruit/Adafruit NeoPixel @ ^1.12.0
 
 Фото:
 
