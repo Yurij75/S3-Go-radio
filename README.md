@@ -85,13 +85,7 @@ https://code.visualstudio.com/
 
 Фото:
 
-https://github.com/user-attachments/assets/048a29b1-905f-432f-9c62-cb85d12a1eee
 
-<img src="https://github.com/user-attachments/assets/a839ecb1-c02e-46b1-a70b-7a8718b49b34" width="25%"/>
-<img src="https://github.com/user-attachments/assets/4b673357-a6c2-4fbe-9c64-25f2e437e369" width="25%"/>
-<img src="https://github.com/user-attachments/assets/2f54f73e-4fb3-40d6-aec2-c51426016941" width="25%"/>
-<img src="https://github.com/user-attachments/assets/8c40a43a-6a98-4bf8-a2d5-7fa698b6132e" width="25%"/>
-<img src="https://github.com/user-attachments/assets/a18ccc0e-9de5-4f83-abfb-bbf644187b30" width="25%"/>
 
 Скриншоты веб страницы:
 
