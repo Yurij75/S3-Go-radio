@@ -110,3 +110,5 @@ https://code.visualstudio.com/
 При сохранении фото в фотошопе выбрать настройку "базовый оптимизированный"
 
 ![photoshop](https://github.com/user-attachments/assets/e95ff6d8-e2c6-4c6e-b7c7-53681563412b)
+
+Будут ошибки - пишите.
