@@ -84,6 +84,8 @@ https://code.visualstudio.com/
   adafruit/Adafruit NeoPixel @ ^1.12.0
 
 Фото:
+<img width="1153" height="1189" alt="{C3CD3AC5-BD9A-4275-9E63-35BA82A6F0E3}" src="https://github.com/user-attachments/assets/8ffa0bab-7f1b-4be4-b400-cd6304aa6a2d" />
+
 
 
 
