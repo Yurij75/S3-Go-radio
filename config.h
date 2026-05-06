@@ -58,7 +58,7 @@
 #define NAV_ENCODER_B_PIN   255
 #define NAV_ENCODER_BTN_PIN 255
 
-#define ENCODER_STEPS 1
+#define ENCODER_STEPS 4
 
 // === ENCODER BUTTON SETTINGS ===
 #define ENCODER_BTN_DEBOUNCE 70  // ms - антидребезг кнопки
