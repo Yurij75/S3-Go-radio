@@ -21,7 +21,7 @@
 //#define DISPLAY_ST7735_160x128  // для ST7735 160x128
 //#define DISPLAY_ST7789
 //#define DISPLAY_ILI9341
-#define DISPLAY_ILI9488
+#define DISPLAY_ILI9488 //тестовый режим не проверен
 //#define DISPLAY_ST7789_172      // горизонтально: TFT_ROTATION 3, вертикально: TFT_ROTATION 0 или 2
 //#define DISPLAY_ST7789_76
 
