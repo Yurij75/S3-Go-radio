@@ -1,7 +1,6 @@
 #pragma once
 
 #define DISPLAY_PROFILE_NAME "Custom Generated"
-#define DISPLAY_PROFILE_ROTATION 0
 #define DISPLAY_PROFILE_DEFAULT_BACKGROUND "/00.jpg"
 
 #define DISPLAY_PROFILE_NEEDLE_L_X 22
