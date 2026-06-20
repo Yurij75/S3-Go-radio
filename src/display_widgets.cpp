@@ -159,7 +159,7 @@ int clockVisibleX() {
 }
 
 int analogClockDiameter() {
-  return static_cast<int>(min(vuWidth, vuHeight) * 0.62f);
+  return static_cast<int>(min(vuWidth, vuHeight) * 0.875f);
 }
 
 void copyBackgroundToSprite(Arduino_Canvas* sprite, int spriteW, int spriteH, int drawX, int drawY) {
