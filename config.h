@@ -54,16 +54,6 @@
 #define NAV_ENCODER_B_PIN   255
 #define NAV_ENCODER_BTN_PIN 255
 
-// кухня радио
-// #define ENCODER_A_PIN     6
-// #define ENCODER_B_PIN     5
-// #define ENCODER_BTN_PIN   4
-
-// #define NAV_ENCODER_A_PIN   7
-// #define NAV_ENCODER_B_PIN   15
-// #define NAV_ENCODER_BTN_PIN 8
-
-
 #define ENCODER_STEPS 4
 // Режимы работы энкодера:
 //
@@ -84,11 +74,6 @@
 // false - use floating inputs (external pull-ups required)
 #define ENCODER_INTERNAL_PULLUP true
 #define NAV_ENCODER_INTERNAL_PULLUP true
-
-// === ENCODER BUTTON SETTINGS ===
-// #define ENCODER_BTN_DEBOUNCE 70  // ms - антидребезг кнопки
-// #define LONG_PRESS_TIME 2000     // ms - время для длинного нажатия
-// #define CLICK_TIMEOUT 320        // ms - таймаут между кликами
 
 #define BTN_VOL_UP_PIN     255
 #define BTN_VOL_DOWN_PIN   255
@@ -135,7 +120,6 @@
 #define STATION_FONT_NORMAL ComfortaaBold_24px
 #define STATION_FONT_LARGE Fallout_54px
 #define BITRATE_FONT ComfortaaBold_24px
-#define QUOTE_FONT  consolabUkr16
 
 // === DISPLAY UPDATE ===
 #define DISPLAY_TASK_DELAY 10   // milliseconds (25 FPS)
