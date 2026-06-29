@@ -1375,7 +1375,29 @@ void showWiFiSetupWaitingScreen() {
 }
 
 void applyCurrentVolume() {
-  setAudioVolumePercent(audio, currentVolume, currentStationOvol);
+    // Логарифмическая кривая из Audio.cpp
+    float t = currentVolume / 100.0f;
+    float dB = -112.0f * t * t * t + 172.0f * t * t - 60.0f;
+    float vol = powf(10.0f, dB / 20.0f);
+    int volumeAudio = (int)(vol * 255.0f);
+    
+    int effectiveVolume = constrain(volumeAudio + currentStationOvol, 0, 255);
+    audio.setVolume(effectiveVolume);
+}
+
+void handleVolumeStep(int delta) {
+    noteUserActivity();
+    int newVolume = constrain(currentVolume + delta, 0, 100);
+    if (newVolume == currentVolume) return;
+
+    currentVolume = newVolume;
+    applyCurrentVolume();
+    scheduleVolumeSave();
+    
+    if (encoder && !showStationList) {
+        encoder->setEncoderValue(currentVolume);  // Синхронизация
+        lastEncoderValue = currentVolume;
+    }
 }
 
 bool getStreamByIndexWithOvol(int idx, String &outName, String &outURL, int &outOvol) {
@@ -1542,20 +1564,6 @@ void prevStream() {
     currentStreamIndex--;
     if(currentStreamIndex < 0) currentStreamIndex = streamCount - 1;
     selectStream(currentStreamIndex);
-  }
-}
-
-void handleVolumeStep(int delta) {
-  noteUserActivity();
-  const int newVolume = constrain(currentVolume + delta, kVolumePercentMin, kVolumePercentMax);
-  if (newVolume == currentVolume) return;
-
-  currentVolume = newVolume;
-  applyCurrentVolume();
-  scheduleVolumeSave();
-  if (encoder && !showStationList) {
-    encoder->setEncoderValue(currentVolume);
-    lastEncoderValue = currentVolume;
   }
 }
 
