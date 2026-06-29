@@ -119,11 +119,11 @@ private:
     }
 
     uint16_t activeLedCount() const {
-        return ledCount > 1 ? ledCount - 1 : ledCount;
+        return ledCount;
     }
 
     uint16_t physicalIndex(uint16_t logicalIndex) const {
-        return ledCount > 1 ? logicalIndex + 1 : logicalIndex;
+        return logicalIndex;
     }
 
     bool hasLogicalPixel(uint16_t logicalIndex) const {
@@ -140,11 +140,11 @@ private:
         return pixels->getPixelColor(physicalIndex(logicalIndex));
     }
 
-    void keepBoardLedOff() {
-        if (ledCount > 1) {
-            pixels->setPixelColor(0, 0);
-        }
-    }
+    // void keepBoardLedOff() {
+    //     if (ledCount > 1) {
+    //         pixels->setPixelColor(0, 0);
+    //     }
+    // }
 
     uint16_t xyToIndex(uint8_t x, uint8_t y) const {
         if (x >= LED_MATRIX_WIDTH || y >= LED_MATRIX_HEIGHT) return UINT16_MAX;
@@ -248,14 +248,14 @@ private:
         for (uint16_t i = 0; i < ledCount; ++i) {
             pixels->setPixelColor(i, color);
         }
-        keepBoardLedOff();
+        // keepBoardLedOff();
     }
 
     void fillLogical(uint32_t color) {
         for (uint16_t i = 0; i < activeLedCount(); ++i) {
             setLogicalPixel(i, color);
         }
-        keepBoardLedOff();
+        // keepBoardLedOff();
     }
 
     bool createStrip(uint16_t count) {
@@ -806,7 +806,7 @@ public:
 
         auto render = effectTable()[effectIndex].render;
         (this->*render)(leftVU, rightVU, isPlaying, isPaused, now);
-        keepBoardLedOff();
+        // keepBoardLedOff();
         pixels->show();
     }
 
