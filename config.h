@@ -37,7 +37,7 @@
 #define AUDIO_I2S_LRCLK 18  // I2S left/right clock
 
 #define AUDIO_DEFAULT_VOLUME 120  // 0-254 steps, like yoRadio
-// #define AUDIO_BUFFER_SIZE (512 * 1024) // 512 KB
+
 // === TFT DISPLAY PINS ===
 #define TFT_DC   9
 #define TFT_CS   10
