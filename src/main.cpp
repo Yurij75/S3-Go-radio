@@ -109,7 +109,7 @@ Arduino_DataBus *bus = new Arduino_ESP32SPI(TFT_DC, TFT_CS, TFT_SCLK, TFT_MOSI);
   Arduino_GFX *gfx = new Arduino_ILI9488(bus, TFT_RST, TFT_ROTATION);  
 
 #elif defined(DISPLAY_NV3007)
-  Arduino_GFX *gfx = new Arduino_NV3007(bus, TFT_RST, 1, false, 148, 428, 10, 0, 10, 0);
+  Arduino_GFX *gfx = new Arduino_NV3007(bus, TFT_RST, 0 /* rotation */, false /* IPS */, 142 /* width */, 428 /* height */, 12 /* col offset 1 */, 0 /* row offset 1 */, 14 /* col offset 2 */, 0 /* row offset 2 */, nv3007_279_init_operations, sizeof(nv3007_279_init_operations));
 
 #elif defined(DISPLAY_ST7735_160x128)
   // Для ST7735 160x128 пикселей
