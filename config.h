@@ -18,7 +18,7 @@
 // Uncomment ONE display type:
 //#define DISPLAY_PROFILE_CUSTOM_GENERATED  // use generated profile from profile_custom_generated.h
 #define DISPLAY_ST7796
-//#define DISPLAY_NV3007
+//#define DISPLAY_NV3007 // 2.79" NV3007 LCD 142x428
 //#define DISPLAY_ST7735_160x128  // для ST7735 160x128
 //#define DISPLAY_ST7789
 //#define DISPLAY_ILI9341
