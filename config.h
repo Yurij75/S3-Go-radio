@@ -26,7 +26,7 @@
 //#define DISPLAY_ST7789_172      // горизонтально: TFT_ROTATION 3, вертикально: TFT_ROTATION 0 или 2
 //#define DISPLAY_ST7789_76
 
-#define TFT_ROTATION 0        // горизонтально: 1 или 3, вертикально: 0 или 2
+#define TFT_ROTATION 3        // горизонтально: 1 или 3, вертикально: 0 или 2
 #define TFT_BRIGHTNESS 255    // 0-255
 // Set to 1 if your backlight control is active-low (inverted).
 #define TFT_BL_INVERTED 0   // 0 - normal, 1 - inverted (284/76)
@@ -122,7 +122,7 @@
 #define BITRATE_FONT ComfortaaBold_24px
 
 // === DISPLAY UPDATE ===
-#define DISPLAY_TASK_DELAY 10   // milliseconds (25 FPS)
+#define DISPLAY_TASK_DELAY 30   // milliseconds
 #define CLOCK_UPDATE_DELAY 500  // milliseconds
 
 // === Station switch debounce (to allow quick navigation without reconnecting each step)
