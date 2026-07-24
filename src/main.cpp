@@ -124,7 +124,7 @@ Arduino_DataBus *bus = new Arduino_ESP32SPI(TFT_DC, TFT_CS, TFT_SCLK, TFT_MOSI);
   Arduino_GFX *gfx = new Arduino_ST7789(bus, TFT_RST, TFT_ROTATION, true, 172, 320, 34, 0, 34, 0);
 
 #elif defined(DISPLAY_ST7789_76)
-  Arduino_GFX *gfx = new Arduino_ST7789(bus, TFT_RST, TFT_ROTATION, false, 76, 284, 82, 18, 82, 0); // false надо
+  Arduino_GFX *gfx = new Arduino_ST7789(bus, TFT_RST, TFT_ROTATION, false, 76, 284, 82, 18, 82, 18); // false надо
 
 #else
   #error "No display type defined! Please uncomment one DISPLAY_* in config.h"
