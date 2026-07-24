@@ -106,7 +106,8 @@ Arduino_DataBus *bus = new Arduino_ESP32SPI(TFT_DC, TFT_CS, TFT_SCLK, TFT_MOSI);
   Arduino_GFX *gfx = new Arduino_ILI9341(bus, TFT_RST, TFT_ROTATION);
 
 #elif defined(DISPLAY_ILI9488)
-  Arduino_GFX *gfx = new Arduino_ILI9488(bus, TFT_RST, TFT_ROTATION);  
+  //Arduino_GFX *gfx = new Arduino_ILI9488(bus, TFT_RST, TFT_ROTATION);  
+  Arduino_GFX *gfx = new Arduino_ILI9488_18bit(bus, TFT_RST, TFT_ROTATION, false /* IPS */);
 
 #elif defined(DISPLAY_NV3007)
   Arduino_GFX *gfx = new Arduino_NV3007(bus, TFT_RST, 0 /* rotation */, false /* IPS */, 142 /* width */, 428 /* height */, 12 /* col offset 1 */, 0 /* row offset 1 */, 14 /* col offset 2 */, 0 /* row offset 2 */, nv3007_279_init_operations, sizeof(nv3007_279_init_operations));
