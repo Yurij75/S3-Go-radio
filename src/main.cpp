@@ -1774,7 +1774,7 @@ void setup() {
   
   // === TFT Display ===
   // Явно указываем частоту SPI для дисплея NV3007 — тест: 80 MHz
-  gfx->begin(80000000);
+  gfx->begin(40000000);
   
   // !!! ВАЖНО: Сразу заполняем черным цветом !!!
   // Keep the backlight off until the first boot frame is ready.
