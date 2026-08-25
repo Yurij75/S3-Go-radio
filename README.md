@@ -117,6 +117,8 @@ https://code.visualstudio.com/
 
 S3-Go!-radio — это приложение для прослушивания радио онлайн.Вы можете поддержать разработчиков, переведя любую сумму в качестве «виртуального кофе» для автора.Финансовая поддержка помогает улучшать проект, исправлять ошибки и добавлять новые функции.
 
-https://donatello.to/Yurij75?g=na-rozvitok-proektu
+https://s.binance.com/JAhrkFl9
+
+<img width="885" height="1280" alt="photo_2026-08-25_22-38-14" src="https://github.com/user-attachments/assets/3abbdf99-f335-4608-abd0-cab7337a357d" />
 
 
